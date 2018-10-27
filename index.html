@@ -15,10 +15,10 @@
 <body>
 
     <div class="container">
-        <h4 style="text-align: center"> Create Todo</h4>
-        
+        <h4 style="text-align: center">Student Form</h4>
+
         <div class="row">
-            <form class="col s12" onsubmit="dataSubmit()">
+            <form class="col s12" onsubmit="dataSubmit()" action="Dispaly.html">
                 <div class="row">
                     <div class="input-field col s6">
                         <input id="stuName" type="text" class="validate">
@@ -69,7 +69,7 @@
                 <label for="Address">Address</label>
             </div>
         </div>
-      <center> <button type="submit"class="waves-effect waves-light btn-small">Submitt</button></center>
+        <center> <button type="submit" class="waves-effect waves-light btn-small" id="Submitt">Submitt</button></center>
     </div>
 
     </div>
@@ -81,9 +81,14 @@
 
 
 
-    <script src="js/Add.js"></script>
+    <script src="js/mylab.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/materialize.min.js"></script>
+
+
+    <script>
+        itemupdate();
+    </script>
 </body>
 
 </html>
